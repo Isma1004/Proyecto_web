@@ -6,4 +6,5 @@ const edad=21;
 let hobbies=["Escuchar musica","Bailar","Ver a mi noviecita"];
 let aprender=true;
 
-console.log("Hola soy ${nombre}");
+console.log(`Hola soy ${nombre} y tengo ${edad} años`);
+console.log(`mis hobbies son ${hobbies.join(", ")} ,¿Estoy aprendiendo? ${aprender}`);
